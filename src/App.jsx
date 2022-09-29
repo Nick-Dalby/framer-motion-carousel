@@ -19,7 +19,7 @@ function App() {
         </button>
         <div
           ref={ref}
-          className="flex w-1/2 h-44 bg-gray-700 rounded-xl items-center justify-center overflow-hidden relative"
+          className="flex w-1/2 h-60 bg-gray-700 rounded-xl items-center justify-center overflow-hidden relative"
         >
           <AnimatePresence custom={{ direction, width }}>
             <motion.div
